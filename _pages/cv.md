@@ -24,10 +24,10 @@ Education
 
 * **University of California, Los Angeles**  
   B.S. in Applied Mathematics  
-  Coursework: Complex Analysis (MATH 132), Real Analysis (MATH 131A), Algorithms (MATH 182),  
-  Numerical Methods I+II (MATH 151A+B), Mathematical Modeling (MATH 142),  
-  Probability (STATS 100A), Statistics (MATH 170S), Game Theory (MATH 167),  
-  Linear Algebra (MATH 115A)
+  Coursework:  
+  - **Core Math:** Linear Algebra (115A), Real Analysis (131A), Complex Analysis (132), Mathematical Modeling (142)  
+  - **Applied/Computational:** Numerical Methods I & II (151A & 151B), Algorithms (182)  
+  - **Statistics:** Probability (STATS 100A), Statistics (170S), Game Theory (167)
 
 Work Experience
 ======
