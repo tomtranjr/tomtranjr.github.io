@@ -11,4 +11,6 @@ Hi, I'm Tom 👋 — a Master's student in Data Science at the University of San
 
 This site highlights my academic journey, technical projects, and experiences as I build toward a career in data science. Feel free to explore my work, get in touch, or connect on GitHub and LinkedIn.
 
+Outside of data science, I enjoy running, reading (favorites include *Dune*, *The Martian*, *Shoe Dog*, *Four Thousand Weeks*), and meditating — I recommend the [Waking Up app by Sam Harris](https://dynamic.wakingup.com/guestpass/SCE83840A); it’s life-changing (#notsponsored).
+
 Thanks for visiting! 🙌
