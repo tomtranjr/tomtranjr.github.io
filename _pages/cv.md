@@ -44,6 +44,6 @@ Languages
 Service and Leadership
 ======
 * **Aircraft Electrical and Environmental (E/E) Systems Maintainer**  
-  *129th Rescue Wing, Oct 2023 – Present · Mountain View, CA*  
+  *129th Rescue Wing, Mountain View, CA*  
   Currently serving as a drill status guardsman (DSG), part of the California Air National Guard (CA ANG).  
   **Awards and Honors:** BMT Honor Graduate, Aircraft E/E Systems Technical School: Academic Excellence.
