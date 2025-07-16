@@ -9,56 +9,41 @@ redirect_from:
 
 {% include base_path %}
 
+Tom Tran Jr
+======
+Master of Science in Data Science student at the University of San Francisco. UCLA B.S. Applied Mathematics alum.  
+📍 San Francisco, California  
+📧 [tranjrtom@gmail.com](mailto:tranjrtom@gmail.com)  
+🌐 [tomtranjr.github.io](https://tomtranjr.github.io)  
+💼 [GitHub](https://github.com/tomtranjr) | [LinkedIn](https://www.linkedin.com/in/tomtranjr/)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **University of San Francisco**  
+  M.S. in Data Science, July 2025 – Present
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **University of California, Los Angeles**  
+  B.S. in Applied Mathematics  
+  Coursework: Complex Analysis (MATH 132), Real Analysis (MATH 131A), Algorithms (MATH 182),  
+  Numerical Methods I+II (MATH 151A+B), Mathematical Modeling (MATH 142),  
+  Probability (STATS 100A), Statistics (MATH 170S), Game Theory (MATH 167),  
+  Linear Algebra (MATH 115A)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Work Experience
+======
+* **U.S. Department of State**  
+  *Data Analysis and User Experience Intern*  
+  Built dashboards and analyzed 3+ years of Zoom usage data for the Zoom for Government program.  
+  Collaborated on user research and reduced expenses for 20+ departments.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Languages
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Vietnamese (Spoken)  
+* Cantonese (Spoken)
 
-Publications
+Service and Leadership
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* **Aircraft Electrical and Environmental (E/E) Systems Maintainer**  
+  *129th Rescue Wing, Oct 2023 – Present · Mountain View, CA*  
+  Currently serving as a drill status guardsman (DSG), part of the California Air National Guard (CA ANG).  
+  **Awards and Honors:** BMT Honor Graduate, Aircraft E/E Systems Technical School: Academic Excellence.
