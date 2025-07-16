@@ -13,9 +13,9 @@ Tom Tran Jr
 ======
 Master of Science in Data Science student at the University of San Francisco. UCLA B.S. Applied Mathematics alum.  
 📍 San Francisco, California  
-📧 [tranjrtom@gmail.com](mailto:tranjrtom@gmail.com)  
-🌐 [tomtranjr.github.io](https://tomtranjr.github.io)  
-💼 [GitHub](https://github.com/tomtranjr) | [LinkedIn](https://www.linkedin.com/in/tomtranjr/)
+📧 <a href="mailto:tranjrtom@gmail.com" target="_blank">tranjrtom@gmail.com</a>  
+🌐 <a href="https://tomtranjr.github.io" target="_blank">tomtranjr.github.io</a>  
+💼 <a href="https://github.com/tomtranjr" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/tomtranjr/" target="_blank">LinkedIn</a>
 
 Education
 ======
