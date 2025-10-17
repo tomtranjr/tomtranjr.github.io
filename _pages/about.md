@@ -15,4 +15,4 @@ When I'm not hunched over at my laptop, you'll probably find me running or readi
 
 Thanks for stopping by, and feel free to explore or connect with me on GitHub and LinkedIn.
 
-You can find my resume [right here]({{ "/files/Resume_TomTranJr_ver1.pdf" | relative_url }}){:target="_blank" rel="noopener"} and open it in a new tab.
+You can find my resume [right here]({{ "/files/Resume_TomTranJr_ver1.pdf" | relative_url }}){:target="_blank" rel="noopener"}.
