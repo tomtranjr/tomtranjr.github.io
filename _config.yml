@@ -22,9 +22,9 @@ repository               : "tomtranjr/tomtranjr.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "tomtrangrad.jpg"
+  avatar           : "tomtran_professional.jpg"
   name             : "Tom Tran Jr"
-  bio              : "Master of Science in Data Science (MSDS) student at the University of San Francisco. UCLA Applied Math alum. Passionate about data science for social good."
+  bio              : "MS Data Science student at USF with a background in applied mathematics and a mission to use data for social good."
   location         : "San Francisco, California"
   employer         : "University of San Francisco"
   email            : "tranjrtom@gmail.com"
@@ -220,6 +220,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -266,10 +269,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _projects
   - scope:
       path: ""
-      type: portfolio
+      type: projects
     values:
       layout: single
       author_profile: true

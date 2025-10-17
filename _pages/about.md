@@ -7,10 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Tom 👋 — a Master's student in Data Science at the University of San Francisco with a background in applied mathematics and military service. I’m passionate about using data to drive meaningful impact, especially in areas like public policy, environmental sustainability, and government operations.
+Hi, I'm Tom, a Master's student in Data Science at the University of San Francisco with a background in applied mathematics and military service. I'm fascinated by the ways data can shape better decisions, whether in public policy, environmental sustainability, or government operations.
 
-This site highlights my academic journey, technical projects, and experiences as I build toward a career in data science. Feel free to explore my work, get in touch, or connect on GitHub and LinkedIn.
+This site shares my journey through graduate school and beyond: the projects I've built, the problems I've tackled, and the lessons I've learned along the way. My goal is to combine analytical rigor with practical impact, using data to improve how systems and people work together.
 
-Outside of data science, I enjoy running, reading (favorites include *Dune*, *The Martian*, *Shoe Dog*, *Four Thousand Weeks*), and meditating — I recommend the [Waking Up app by Sam Harris](https://dynamic.wakingup.com/guestpass/SCE83840A); it’s life-changing (#notsponsored).
+When I'm not hunched over at my laptop, you'll probably find me running or reading. Some of my favorite books include Dune, The Martian, Shoe Dog, and Four Thousand Weeks.
 
-Thanks for visiting! 🙌
+Thanks for stopping by, and feel free to explore or connect with me on GitHub and LinkedIn.
