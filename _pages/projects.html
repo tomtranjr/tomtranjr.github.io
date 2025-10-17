@@ -6,8 +6,8 @@ author_profile: true
 ---
 
 {% include base_path %}
+{% assign projects_desc = site.projects | sort: "date" | reverse %}
 
-
-{% for post in site.projects %}
+{% for post in projects_desc %}
   {% include archive-single.html %}
 {% endfor %}
