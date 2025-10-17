@@ -14,3 +14,5 @@ This site shares my journey through graduate school and beyond: the projects I'v
 When I'm not hunched over at my laptop, you'll probably find me running or reading. Some of my favorite books include Dune, The Martian, Shoe Dog, and Four Thousand Weeks.
 
 Thanks for stopping by, and feel free to explore or connect with me on GitHub and LinkedIn.
+
+You can find my resume [right here]({{ "/files/Resume_TomTranJr_ver1.pdf" | relative_url }}){:target="_blank" rel="noopener"} and open it in a new tab.
