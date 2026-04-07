@@ -7,6 +7,8 @@ redirect_from:
   - /resume-json
 ---
 
+{% comment %} UNUSED: /resume-json/ is not part of this site's workflow. Do not maintain this page or tie resume PDFs here; canonical PDF is /files/Resume_TomTranJr_display.pdf linked from about.md. {% endcomment %}
+
 {% include base_path %}
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/cv-style.css">
