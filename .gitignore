@@ -19,6 +19,15 @@ package-lock.json
 # Ignore folders related to IDEs
 .vscode/
 
+# AI coding assistants and local tooling
+.cursor/
+.claude/
+.codex/
+.aider*
+.continue/
+.windsurf/
+.specstory/
+
 # Ignore macOS system files
 .DS_Store
 images/.DS_Store
