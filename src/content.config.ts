@@ -25,4 +25,21 @@ const projects = defineCollection({
 		}),
 });
 
-export const collections = { projects };
+const blog = defineCollection({
+	// Load Markdown and MDX files in the `src/content/blog/` directory.
+	loader: glob({ base: './src/content/blog', pattern: '**/*.{md,mdx}' }),
+	schema: ({ image }) =>
+		z.object({
+			title: z.string(),
+			// One line. Shows in the post list and in meta tags.
+			description: z.string(),
+			pubDate: z.coerce.date(),
+			updatedDate: z.coerce.date().optional(),
+			heroImage: image().optional(),
+			heroAlt: z.string().optional(),
+			// Drafts show in `npm run dev` but are left out of production builds.
+			draft: z.boolean().default(false),
+		}),
+});
+
+export const collections = { projects, blog };

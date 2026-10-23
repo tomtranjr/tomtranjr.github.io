@@ -5,6 +5,7 @@ const path = Astro.url.pathname;
 const nav = [
 	{ label: 'Home', href: '/', active: path === '/' },
 	{ label: 'Projects', href: '/projects/', active: path.startsWith('/projects') },
+	{ label: 'Blog', href: '/blog/', active: path.startsWith('/blog') },
 	{ label: 'Resume', href: RESUME_URL, active: false },
 ];
 ---

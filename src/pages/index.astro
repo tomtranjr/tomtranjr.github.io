@@ -2,13 +2,17 @@
 import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import headshot from '../assets/headshot.png';
+import PostList from '../components/PostList.astro';
 import ProjectList from '../components/ProjectList.astro';
 import { EDUCATION, EXPERIENCE, LINKS, RESUME_URL, SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import Base from '../layouts/Base.astro';
+import { getPosts } from '../utils/posts';
 
 const recent = (await getCollection('projects'))
 	.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
 	.slice(0, 3);
+
+const recentPosts = (await getPosts()).slice(0, 3);
 ---
 
 <Base description={SITE_DESCRIPTION}>
@@ -84,6 +88,18 @@ const recent = (await getCollection('projects'))
 		<ProjectList projects={recent} />
 		<p class="more"><a href="/projects/">All projects</a></p>
 	</section>
+
+	{
+		recentPosts.length > 0 && (
+			<section>
+				<h2>Recent posts</h2>
+				<PostList posts={recentPosts} />
+				<p class="more">
+					<a href="/blog/">All posts</a>
+				</p>
+			</section>
+		)
+	}
 </Base>
 
 <style>
