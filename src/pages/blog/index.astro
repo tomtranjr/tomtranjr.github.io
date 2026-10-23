@@ -1,0 +1,31 @@
+---
+import PostList from '../../components/PostList.astro';
+import Base from '../../layouts/Base.astro';
+import { getPosts } from '../../utils/posts';
+
+const posts = await getPosts();
+---
+
+<Base title="Blog" description="Notes, thoughts, and resources I want to share.">
+	<section class="intro">
+		<h1>Blog</h1>
+		<p>Notes, thoughts, and resources I want to share.</p>
+	</section>
+	{posts.length > 0 ? <PostList posts={posts} /> : <p class="empty">Nothing here yet.</p>}
+</Base>
+
+<style>
+	.intro {
+		padding-block: 3.5rem 2rem;
+	}
+	.intro h1 {
+		margin: 0;
+	}
+	.intro p {
+		margin: 0.75rem 0 0;
+		color: var(--muted);
+	}
+	.empty {
+		color: var(--muted);
+	}
+</style>
