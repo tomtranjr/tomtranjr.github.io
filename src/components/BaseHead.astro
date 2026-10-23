@@ -24,6 +24,15 @@ const touchIcon = await getImage({ src: headshot, width: 180, height: 180, forma
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <meta name="color-scheme" content="light dark" />
+<script is:inline>
+	// Apply a saved theme before first paint to avoid a flash.
+	try {
+		const saved = localStorage.getItem('theme');
+		if (saved === 'light' || saved === 'dark') {
+			document.documentElement.dataset.theme = saved;
+		}
+	} catch {}
+</script>
 <link rel="icon" type="image/png" href={favicon.src} />
 <link rel="apple-touch-icon" href={touchIcon.src} />
 <link rel="sitemap" href="/sitemap-index.xml" />

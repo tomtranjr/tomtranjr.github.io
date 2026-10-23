@@ -20,7 +20,7 @@ npm run preview   # serve dist/
 
 ## Conventions
 
-- Design is deliberately minimal: Source Serif 4 (self-hosted via the Astro fonts API), off-white `#FAFAF7`, ink `#1A1A1A`, one muted accent. Light and dark follow the system setting. No gradients, emoji, icon rows, card grids, or stock images.
+- Design is deliberately minimal: Source Serif 4 (self-hosted via the Astro fonts API), off-white `#FAFAF7`, ink `#1A1A1A`, one muted accent. Light and dark follow the system setting until the header toggle overrides it (saved in `localStorage` as `theme`, applied before paint in `BaseHead.astro`). No gradients, emoji, icon rows, card grids, or stock images.
 - Resume path is fixed at `/files/Resume_TomTranJr_display.pdf`. Update by overwriting `public/files/Resume_TomTranJr_display.pdf`.
 - Writing tone matches the LinkedIn profile: plain, short sentences, no em dashes. Do not add security clearance details or Arango customer details.
 - There is no blog. Add a second content collection if one is wanted later.
