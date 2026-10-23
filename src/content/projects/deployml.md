@@ -13,7 +13,7 @@ Professor Robert Clements started it while teaching an MLOps course. Students wa
 
 ## How I got involved
 
-The project is supervised by one faculty member and maintained by students. I joined as a maintainer in summer 2026. I review and merge pull requests, cut releases to main, and work on reliability, tooling, and docs.
+The project is supervised by one faculty member and maintained by students. I joined as a maintainer in summer 2026. I review and merge pull requests and work on reliability, tooling, and docs.
 
 ## What I have done
 
