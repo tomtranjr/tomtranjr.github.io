@@ -17,10 +17,6 @@ The project is supervised by one faculty member and maintained by students. I jo
 
 ## What I have done
 
-**Shipped the dev branch to main.** Months of work had piled up on a long-lived `dev` branch: 45 commits across 62 files. I promoted it to `main` in one reviewed merge. The release covered the Cloud SQL lockdown, credentials moved into Secret Manager, Windows support, and Kubernetes fixes.
-
-**Fixed what the review found.** Locking down Cloud SQL removed public access, but Feast and the scheduled jobs still pointed at the public IP, so their connections would time out. I routed them through the Cloud SQL socket. I also made `destroy` safer. It used to delete a hard-coded image repo every time, which could remove images that other workspaces in the same project still used. Now it takes a `--repository` flag, a `--keep-images` flag, and asks before it deletes.
-
 **Modernized build and release.** I moved packaging from Poetry to uv and set up python-semantic-release, so a merge to `main` bumps the version, writes the changelog, and publishes to PyPI with no stored token. The wheel went from 41MB to 182KB, because a stray Terraform provider binary no longer ships with it. This is in review.
 
 **Added guardrails for contributors.** I added ruff and commitizen pre-commit hooks and a CI lint gate, and fixed the existing lint errors so the gate starts green. I also removed about 7,500 lines of dead files, including a tracked config that held a live project ID and bucket names.
