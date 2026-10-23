@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import ProjectList from '../../components/ProjectList.astro';
+import Base from '../../layouts/Base.astro';
+
+const projects = (await getCollection('projects')).sort(
+	(a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+---
+
+<Base title="Projects" description="Things I have built: ML services, developer tools, and teaching apps.">
+	<section class="intro">
+		<h1>Projects</h1>
+		<p>Things I have built outside of work. Most of the code is on GitHub.</p>
+	</section>
+	<ProjectList projects={projects} />
+</Base>
+
+<style>
+	.intro {
+		padding-block: 3.5rem 2rem;
+	}
+	.intro h1 {
+		margin: 0;
+	}
+	.intro p {
+		margin: 0.75rem 0 0;
+		color: var(--muted);
+	}
+</style>

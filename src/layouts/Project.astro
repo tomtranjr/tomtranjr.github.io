@@ -1,0 +1,78 @@
+---
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import Base from './Base.astro';
+
+type Props = CollectionEntry<'projects'>['data'];
+
+const { title, description, period, heroImage, heroAlt, links } = Astro.props;
+
+const linkItems = [
+	links?.repo && { label: 'Code', href: links.repo },
+	links?.demo && { label: 'Live demo', href: links.demo },
+	links?.paper && { label: 'Paper (PDF)', href: links.paper },
+].filter(Boolean) as { label: string; href: string }[];
+---
+
+<Base title={title} description={description} image={heroImage}>
+	<article class="project">
+		<p class="back"><a href="/projects/">Projects</a></p>
+		<h1>{title}</h1>
+		<p class="meta">
+			{period && <span>{period}</span>}
+			{linkItems.map((link) => <a href={link.href}>{link.label}</a>)}
+		</p>
+		{
+			heroImage && (
+				<figure class="hero">
+					<Image src={heroImage} alt={heroAlt ?? ''} width={720} />
+				</figure>
+			)
+		}
+		<div class="prose">
+			<slot />
+		</div>
+	</article>
+</Base>
+
+<style>
+	.project {
+		padding-top: 3.5rem;
+	}
+	.back {
+		margin: 0 0 1.5rem;
+		font-size: 0.9rem;
+	}
+	.back a {
+		color: var(--muted);
+		text-decoration: none;
+	}
+	.back a::before {
+		content: '\2190\00a0';
+	}
+	.back a:hover {
+		color: var(--ink);
+	}
+	h1 {
+		margin: 0;
+	}
+	.meta {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem 1.25rem;
+		margin: 0.75rem 0 2.5rem;
+		color: var(--muted);
+		font-size: 0.95rem;
+	}
+	.hero {
+		margin: 0 0 2.5rem;
+	}
+	.hero img {
+		display: block;
+		width: 100%;
+		height: auto;
+		border: 1px solid var(--rule);
+		border-radius: 4px;
+		background: #fff;
+	}
+</style>
