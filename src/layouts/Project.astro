@@ -12,6 +12,12 @@ const linkItems = [
 	links?.demo && { label: 'Live demo', href: links.demo },
 	links?.paper && { label: 'Paper (PDF)', href: links.paper },
 ].filter(Boolean) as { label: string; href: string }[];
+
+// Tall images (phone screenshots) get a narrower width so they stay about 640px high.
+const heroWidth =
+	heroImage && heroImage.height > heroImage.width
+		? Math.round((640 * heroImage.width) / heroImage.height)
+		: 720;
 ---
 
 <Base title={title} description={description} image={heroImage}>
@@ -25,7 +31,13 @@ const linkItems = [
 		{
 			heroImage && (
 				<figure class="hero">
-					<Image src={heroImage} alt={heroAlt ?? ''} width={720} />
+					<Image
+						src={heroImage}
+						alt={heroAlt ?? ''}
+						width={heroWidth}
+						densities={[1, 2]}
+						style={`max-width: ${heroWidth}px`}
+					/>
 				</figure>
 			)
 		}
