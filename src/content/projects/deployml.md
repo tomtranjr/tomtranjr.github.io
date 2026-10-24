@@ -21,7 +21,7 @@ The project is supervised by one faculty member and maintained by students. I jo
 
 **Added guardrails for contributors.** I added ruff and commitizen pre-commit hooks and a CI lint gate, and fixed the existing lint errors so the gate starts green. I also removed about 7,500 lines of dead files, including a tracked config that held a live project ID and bucket names.
 
-**Improved docs and tutorials.** I rewrote the install guide into six ordered steps, from tools to a verified setup, and fixed a wrong claim about what `deployml doctor` checks. I also built a proof of concept tutorial where predictions are scored first and the ground truth arrives later, the way it often does in production.
+**Improved docs and tutorials.** I rewrote the install guide into six ordered steps, from tools to a verified setup, and fixed a wrong claim about what `deployml doctor` checks. I also built a proof-of-concept tutorial where predictions are scored first and the ground truth arrives later, the way it often does in production.
 
 ## Impact
 
